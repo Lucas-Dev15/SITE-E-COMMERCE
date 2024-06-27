@@ -12,7 +12,61 @@
 </head>
 <body>
 
+<nav>
+    <a class="logo" href="#">E<span>SHOP</span></a>
+    <ul class="navigation">
+        <li><a class="active" href="#home">Home</a></li>
+        <li><a href="#nouveautes">Nouveautés</a></li>
+        <li><a href="#produits">produits</a></li>
+        <li><a href="#avis">Avis</a></li>
+    </ul>
+    <div class="navigation-icons">
+        <i id="search-icon" class="bx bx-search"></i>
+        <i id="cart-icon" class="bx bx-cart-alt"></i>
+        <i id="user-icon" class="bx bx-user"></i>
+        <i id="burger-menu" class="bx bx-menu"></i>
+    </div>
 
+    <!-- Recherche -->
+    <div class="search-container">
+        <input type="search" name="search" id="search" placeholder="Que recherchez vous ?">
+    </div>
+
+    <!-- Panier -->
+    <div class="cart-container">
+        <div class="cart-card">
+            <img src="IMAGES/panier-01.png" alt="">
+            <div class="cart-text">
+                <h3>T-shirt 12A</h3>
+                <span>30€</span>
+                <span>1x</span>
+            </div>
+            <i class="bx bxs-trash-alt"></i>
+        </div>
+
+        <div class="cart-card">
+            <img src="IMAGES/panier-02.png" alt="">
+            <div class="cart-text">
+                <h3>T-shirt 12A</h3>
+                <span>10€</span>
+                <span>1x</span>
+            </div>
+            <i class="bx bxs-trash-alt"></i>
+        </div>
+        <h2>Total : 40€</h2>
+        <a class="btn" href="#">voir panier</a>
+    </div>
+
+    <!-- Compte -->
+    <div class="user-container">
+        <h2>Connectez vous</h2>
+        <input type="email" name="email" id="email" placeholder="Veuillez indiquer votre email">
+        <input type="password" name="password" id="password" placeholder="Veuillez indiquer votre mot de passe">
+        <input class="btn-user" type="submit" value="Connexion">
+        <p>Mot de passe oublié ? <a href="#">Redéfinir mot de passe</a></p>
+        <p>Pas de compte ? <a href="#">Créer un compte !</a></p>
+    </div>
+</nav>
 
 </body>
 </html>
