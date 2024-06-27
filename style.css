@@ -259,3 +259,24 @@ nav.active {
 .user-container.active {
     right: 1rem;
 }
+
+
+/* Home */
+.home {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(17rem, 1fr));
+    align-items: center;
+    gap: 1.5rem;
+    background-color: var(--light);
+}
+
+.home-content span {
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.home-content h1 {
+    font-size: clamp(35px, 5vw, 80px);
+    margin-bottom: 1rem;
+}
